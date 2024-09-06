@@ -262,32 +262,11 @@ console.log (typeof (dolphinsAverage.toFixed (2))) // string
 
 // expression is a piece of code that procedures a value, such as 2 + 4
 // statement is a piece of code that performs an action, it likes a sentence
-
+//  expression must return value
+// statement perform an action
 
 // the conditional (ternary) operator
 // condition ? statements if true : statements if false
 const ownAge = 19 
 ownAge >= 18 ? console.log ("you are an adult 🤣") : console.log ('you are a teenager 😊')
 
-
-
-
-
-
-
-const myString = `learning javascript`;
-
-const sub1 = myString.substring (0, 8)
-const sub2 = myString.slice (0, 8)
-
-console.log (sub1, sub2) // learning learning
-
-
-// Lower case all character in string
-let sentence = `It's always sunny in Sunnyvale.`
-console.log(sentence.toLowerCase()) // 'it's always sunny in sunnyvale.'
-console.log(sentence) // 'It's always sunny in Sunnyvale.', un-modified
-
-// Upper case all character in string
-console.log(sentence.toUpperCase()) // 'IT'S ALWAYS SUNNY IN SUNNYVALE.'
-console.log(sentence) // 'It's always sunny in Sunnyvale.', un-modified
