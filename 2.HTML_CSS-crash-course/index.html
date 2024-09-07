@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="icon"  href="./images/happy birthday.png">
+</head>
+<body>
+    <!--ínsert link-->
+    <h1>my information</h1>
+    <a href="https://www.facebook.com/profile.php?id=100051197601834">My social page</a>
+    <button style="border: 0">
+        <img src="./images/happy birthday.png" alt="" srcset="" width="20px" height="20px" id="imgs">
+    </button>
+
+    <div class="mainBox">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <style>
+        #imgs {
+            padding: 0px;
+            margin: 0px;
+            border: 0px;
+        }
+
+        .mainBox {
+            justify-content: center;
+            display: flex;
+        }
+
+        .box {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(orange, purple);
+            border-radius: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        .box:hover {
+            background: linear-gradient(rgb(226, 190, 123), rgb(215, 69, 215));
+            width: 100px;
+            transition: 0.5s
+        }
+
+        
+
+        a {
+            text-decoration: none;
+            color: red;
+        }
+
+        a:hover {
+            color: green;
+        }   
+
+       
+    </style>
+</body>
+</html>

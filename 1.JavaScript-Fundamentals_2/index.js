@@ -45,6 +45,11 @@ processFruit (redApple, orangeOrange) // function is called
 // argument passed to the function, regardless of whether they are explicitly
 // defined as parameters in the function signature.
 
+
+// argument object 
+function nameoffunction (argument) {
+
+}
 // Key Characteristics of the arguments Object
 // Array-like, but not an Array: The arguments object is similar to an 
 //     array (you can access its elements using indexes like arguments[0], 
@@ -191,7 +196,24 @@ console.log (objectPattern['getInfor']())
 // only pass (), now it mean call the function
 // for example:
 // object.method -> return the whole function (its content)
-// object.method () -> calling the function and returning result
+// object.method () -> calling the function and only returning result
+
+// such a, i have a function and call it
+const func = () => {
+  let a = 10
+  let b = 20
+  console.log ('the result is ' + (a + b))
+}
+
+// if call:  func -> return 
+// '''
+// let a = 10
+// let b = 20
+// console.log ('the result is ' + (a + b))
+// '''
+
+// if call: func () -> return
+// the result is 30
 
 console.log (objectPattern.getInfor) //[Function: getInfor]
 console.log (objectPattern.getInfor ()) // my information: mnhtn.dev
